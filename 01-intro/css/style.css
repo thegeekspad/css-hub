@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  font-size: 22px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 0 0 1rem;
+  color: rgba(200, 0, 150, 0.5);
+}
+
+span {
+  color: gold;
+  background-color: black;
+}
+
+.general {
+  font-style: italic;
+}
+
+#first {
+  color: #f00;
+}

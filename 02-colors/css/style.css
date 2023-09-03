@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  color: #eb5e28;
+}
+
+p {
+  color: rgb(150, 100, 100);
+}
+
+.general {
+  /* Add transparency using rgba */
+  color: rgba(255, 0, 0, 0.5);
+}
+
+span {
+  /* Add transparency using hsla */
+  color: hsl(71, 100%, 50%);
+  background-color: #333;
+  text-transform: uppercase;
+}
