@@ -10,13 +10,14 @@ body {
   font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #333;
+  color: royalblue;
   background-color: #fff;
   margin: 0;
   padding: 0;
 }
 
 h1,
+a,
 article {
   padding: 10px;
   margin: 10px;
@@ -24,4 +25,33 @@ article {
 
 h2 {
   margin-bottom: 10px;
+}
+
+/* form {
+  padding: 10px;
+  margin: 10px;
+}
+
+input,
+button {
+  font: inherit;
+} */
+
+p {
+  text-align: justify;
+  text-indent: 2em;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.upper {
+  background-color: chocolate;
+  color: white;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
 }
