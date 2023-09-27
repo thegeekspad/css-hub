@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: azure;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.item {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  width: 150px;
+  margin: 10px;
+}
+
+#item1 {
+  width: 200px;
+}
+
+#item2 {
+  width: 300px;
+}
+
+#item3 {
+  width: 400px;
+}
+
+#item4 {
+  width: 50px;
+}

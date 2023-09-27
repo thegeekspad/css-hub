@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
-body {
+html {
   font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -10,12 +10,18 @@ body {
   padding: 0;
 }
 
+body {
+  border: 1px dashed #333;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
 h3 {
   color: #eb5e28;
 }
 
 p {
-  color: rgb(150, 100, 100);
+  color: navy;
 }
 
 .general {
@@ -28,4 +34,8 @@ span {
   color: hsl(71, 100%, 50%);
   background-color: #333;
   text-transform: uppercase;
+}
+
+p {
+  color: green;
 }
