@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 2000px;
+}
+
+span {
+  color: goldenrod
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px
+}
+
+.blue {
+  background-color: royalblue;
+  position: fixed;
+  top: 150px;
+  left: 150px;
+}
+
+.green {
+  background-color: green;
+}
+
+.note {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}

@@ -6,13 +6,17 @@
   padding: 0;
 }
 
-body {
+html {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 16px;
   line-height: 1.5;
   color: #333;
   background-color: #fff;
 }
+
+body {
+  font-size: 1rem;
+}
+
 
 .header {
   background-color: royalblue;
@@ -21,6 +25,12 @@ body {
   padding: 1rem;
 }
 
-article {
+#first {
   padding: 1rem;
+  width: 50ch;
+}
+
+#second {
+  padding: 1rem;
+  width: 75ch;
 }

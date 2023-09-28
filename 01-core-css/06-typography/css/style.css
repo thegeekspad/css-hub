@@ -6,44 +6,34 @@
   padding: 0;
 }
 
-body {
+html {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 16px;
   line-height: 1.5;
-  color: royalblue;
-  background-color: #fff;
-  margin: 0;
-  padding: 0;
 }
 
-h1,
-a,
-article {
-  padding: 10px;
-  margin: 10px;
+header {
+  background-color: royalblue;
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
-
-h2 {
-  margin-bottom: 10px;
-}
-
-/* form {
-  padding: 10px;
-  margin: 10px;
-}
-
-input,
-button {
-  font: inherit;
-} */
 
 p {
   text-align: justify;
   text-indent: 2em;
+  margin-bottom: 1rem;
+}
+
+.strikethrough {
+  text-decoration: line-through;
 }
 
 .underline {
   text-decoration: underline;
+}
+
+.overline {
+  text-decoration: overline;
 }
 
 .upper {

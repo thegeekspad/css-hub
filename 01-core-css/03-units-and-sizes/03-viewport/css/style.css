@@ -6,17 +6,14 @@
   padding: 0;
 }
 
-html {
+body {
   font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
   line-height: 1.5;
   color: #333;
   background-color: #fff;
+  min-height: 100vh;
 }
-
-body {
-  font-size: 1rem;
-}
-
 
 .header {
   background-color: royalblue;
@@ -25,20 +22,11 @@ body {
   padding: 1rem;
 }
 
-article {
-  padding: 1rem;
+main {
+  width: 100vw; /* 100% of viewport width, but % removes the scrollbar which is recommended */
+  background-color: papayawhip;
 }
 
-#second {
-  width: 50%;
-}
-
-#forth p {
-  /* relative to root element */
-  font-size: 1.2rem;
-}
-
-#five {
-  /* relative to parent element */
-  font-size: 2em;
+p {
+  width: 80ch;
 }
