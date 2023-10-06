@@ -1,0 +1,8 @@
+.graybox {
+  background-color: gray;
+  border: 1px solid #ddd;
+  height: 100px;
+  width: 100px;
+  border-radius: 4px;
+  padding: 10px;
+}
